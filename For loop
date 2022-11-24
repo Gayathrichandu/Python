@@ -1,0 +1,104 @@
+x= [[1,2,3],["a","b","c"]]
+for i in x :
+      for j in i :
+            print(j, end="")
+      print()
+
+########## break
+x= "hello world. accenture"
+for i in x :
+      if i == "." :
+            break
+      print(i, end="")
+###### continue
+for i in [1,13,56,4,6] :
+      if i>10 :
+            continue
+      print(i)
+###### for loop
+x= [1,4.2,"accenture"]
+for i in x :
+      print(i)
+####char by char
+x= "accenture"
+for i in x :
+      print(i)
+##### range
+sum=0
+for i in range(0,21) :
+      if i%2==0 :
+            sum=sum+i
+      print(sum)
+### 1
+### 12
+### 123
+### 1234
+n=int(input("enter a number"))
+for i in range(1,n+1) :
+      for j in range(1,i+1) :
+            print(j, end='')
+      print()
+######. rows and columns
+r=int(input("enter number of rows"))
+c=int(input("enter number of columns"))
+x=[]
+for i in range(0,r) :
+      for j in rnage(0,c):
+            val.insert(j,int(input("enter the %d * %d element" %(i,j))))
+      x.insert(i,val)
+      val=[]
+y=[]
+for i in range(0,r) :
+      for j in range(0,c):
+            val.insert(j,int(input("enter the %d * %d element" %(i,j))))
+      x.insert(i,val)
+      val=[]
+sum=[]
+for i in range(0,r) :
+      for j in range(0,c) :
+            val.insert(j,x[i][j]+y[i][j])
+      sum.insert(i,val)
+      val=[]
+print(sum)
+
+
+#### output
+
+123
+abc
+hello world1
+4
+6
+1
+4.2
+accenture
+a
+c
+c
+e
+n
+t
+u
+r
+e
+0
+0
+2
+2
+6
+6
+12
+12
+20
+20
+30
+30
+42
+42
+56
+56
+72
+72
+90
+90
+110
