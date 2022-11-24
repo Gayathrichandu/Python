@@ -1,0 +1,70 @@
+Variables
+x=100
+x=varibale name 
+100= vlaue to the variable
+
+Data types
+
+x=100
+type(x)
+out:int
+x=654*6734
+type(x)
+out:int
+print(x)
+out:4404036
+
+Float
+
+x=3.4
+print(x)
+out: 3.14
+type(x)
+out: float
+string
+x= "accenture"
+print(x)
+out: accenture
+type(x)
+out: str 
+
+lists : collection of values
+x=[14,67,9]
+print(x)
+out:[14,67,9]
+type(x)
+out:list 
+
+print(x[0])
+out : 14
+print(x[2])
+out: 9
+x[2]=67
+print(x)
+out: [14,67,67]
+
+x= (4,8,6)
+print(x)
+out:(4,8,6)
+type(x)
+out: tuple
+print(x[1])
+out :8
+x[1]=5
+out: error
+
+x=open('variable_com.ipynb','r')
+type(x)
+out: _io.TextIowrapper
+
+(x,y,z)=5,10,7
+print(x)
+print(y)
+print(z)
+out:5
+    10
+	7
+(x,y,z)=1,1,1
+x=y-z=1
+print(x,y,z)
+out : 1 1 1
